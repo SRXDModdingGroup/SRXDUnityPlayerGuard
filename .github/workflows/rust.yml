@@ -22,7 +22,7 @@ jobs:
       run: cargo test --verbose
       
     - name: Windows Toolchain
-    - run: rustup target add x86_64-pc-windows-gnu
+      run: rustup target add x86_64-pc-windows-gnu
     - name: Windows Build
-    - run: cargo build --verbose --release --target x86_64-pc-windows-gnu
+      run: cargo build --verbose --release --target x86_64-pc-windows-gnu
     

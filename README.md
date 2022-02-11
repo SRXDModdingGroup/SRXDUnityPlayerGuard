@@ -1,5 +1,5 @@
 # SRXDUnityPlayerGuard
-A simple application that makes sure that the `Mono` version of `UnityPlayer.dll` is always used.
+A simple application that makes sure that the `Mono` version of `UnityPlayer.dll` is always used, especially after game updates.
 
 ## Installation
 1. First drop `SRXDUnityPlayerGuard.exe`(Windows) or `SRXDUnityPlayerGuard`(Linux) into your `Spin Rhythm` game folder (by default it is `C:\Program Files\Steam\steamapps\common\Spin Rhythm`).

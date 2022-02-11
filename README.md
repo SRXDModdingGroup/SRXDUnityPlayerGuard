@@ -7,7 +7,7 @@ A simple application that makes sure that the `Mono` version of `UnityPlayer.dll
 
 ### For Windows
 ```bash
-.\SRXDUnityPlayerGuard.exe & %command%
+"C:\Windows\System32\cmd.exe" /c .\SRXDUnityPlayerGuard.exe & start "" %command%
 ```
 ### For Linux
 ```bash
@@ -16,7 +16,10 @@ A simple application that makes sure that the `Mono` version of `UnityPlayer.dll
 
 ## IMPORTANT NOTE
 If you've already got your backup `UnityPlayer.dll` under a name that isn't `UnityPlayer.bak.dll`, please either
-- use the `--backuppath <filename here>` argument. For example on Windows: `.\SRXDUnityPlayerGuard.exe --backuppath "BackupOfUnityPlayer.dll" & %command%`
+- use the `--backuppath <filename here>` argument. For example on Windows: 
+```bash
+"C:\Windows\System32\cmd.exe" /c .\SRXDUnityPlayerGuard.exe --backuppath "BackupOfUnityPlayer.dll" & start "" %command%
+```
 - Or rename it to `UnityPlayer.bak.dll`.
 
 If you used SRXDBepInExInstaller to install BepInEx, you don't need to worry about this.

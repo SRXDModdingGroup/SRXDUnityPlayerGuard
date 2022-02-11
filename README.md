@@ -19,6 +19,8 @@ If you've already got your backup `UnityPlayer.dll` under a name that isn't `Uni
 - use the `--backuppath <filename here>` argument. For example on Windows: `.\SRXDUnityPlayerGuard.exe --backuppath "UnityPlayer.dll.bak" & %command%`
 - Or rename it to `UnityPlayer.bak.dll`.
 
+If you used SRXDBepInExInstaller to install BepInEx, you don't need to worry about this.
+
 ## How?
 The application makes sure that `UnityPlayer_Mono.dll` has the same hash as `UnityPlayer.dll`. 
 Otherwise `UnityPlayer.dll` is renamed to `UnityPlayer.bak.dll`, and `UnityPlayer_Mono.dll` is copied to `UnityPlayer.dll`.

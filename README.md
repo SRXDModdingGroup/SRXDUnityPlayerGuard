@@ -16,7 +16,8 @@ A simple application that makes sure that the `Mono` version of `UnityPlayer.dll
 
 ## IMPORTANT NOTE
 If you've already got your backup `UnityPlayer.dll` under a name that isn't `UnityPlayer.bak.dll`, please either
-- use the `--backuppath <filename here>` argument.
+- use the `--backuppath <filename here>` argument. For example on Windows: `.\SRXDUnityPlayerGuard.exe --backuppath "UnityPlayer.dll.bak" & %command%`
+- Or rename it to `UnityPlayer.bak.dll`.
 
 ## How?
 The application makes sure that `UnityPlayer_Mono.dll` has the same hash as `UnityPlayer.dll`. 

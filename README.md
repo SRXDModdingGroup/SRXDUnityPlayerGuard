@@ -15,7 +15,7 @@ A simple application that makes sure that the `Mono` version of `UnityPlayer.dll
 ```
 
 ## Note
-If you've already got your backup `UnityPlayer.dll` under a name that isn't `UnityPlayer.bak.dll`, please either
+If you've already got your backup `UnityPlayer.dll` under a name that isn't `UnityPlayer.bak.dll`, and you want `SRXDUnityPlayerGuard` to save future backups with the same name as your existing backup, either
 - use the `--backuppath <filename here>` argument. For example on Windows: 
 ```bash
 "C:\Windows\System32\cmd.exe" /c .\SRXDUnityPlayerGuard.exe --backuppath "BackupOfUnityPlayer.dll" & start "" %command%

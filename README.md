@@ -14,7 +14,7 @@ A simple application that makes sure that the `Mono` version of `UnityPlayer.dll
 ./SRXDUnityPlayerGuard ; %command%
 ```
 
-## IMPORTANT NOTE
+## Note
 If you've already got your backup `UnityPlayer.dll` under a name that isn't `UnityPlayer.bak.dll`, please either
 - use the `--backuppath <filename here>` argument. For example on Windows: 
 ```bash
